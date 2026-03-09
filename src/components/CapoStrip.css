@@ -1,0 +1,35 @@
+.capo-strip {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--surface2);
+  border: 1px solid var(--accent2);
+  border-radius: 8px;
+  padding: 0.6rem 1rem;
+  margin-bottom: 1.25rem;
+}
+
+.capo-strip-label {
+  font-family: 'DM Mono', monospace;
+  font-weight: 500;
+  color: var(--accent2);
+  font-size: 0.8rem;
+}
+
+.capo-strip-info {
+  font-family: 'DM Mono', monospace;
+  color: var(--muted);
+  font-size: 0.65rem;
+}
+
+@media (max-width: 480px) {
+  .capo-strip {
+    padding: 0.5rem 0.75rem;
+    flex-wrap: wrap;
+    gap: 0.25rem;
+  }
+
+  .capo-strip-info {
+    font-size: 0.6rem;
+  }
+}

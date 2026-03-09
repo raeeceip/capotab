@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <rect width="32" height="32" rx="6" fill="#0d0d0f"/>
+  <!-- Guitar neck/frets -->
+  <line x1="8" y1="6" x2="8" y2="26" stroke="#2a2a32" stroke-width="1"/>
+  <line x1="14" y1="6" x2="14" y2="26" stroke="#2a2a32" stroke-width="1"/>
+  <line x1="20" y1="6" x2="20" y2="26" stroke="#2a2a32" stroke-width="1"/>
+  <!-- Strings -->
+  <line x1="6" y1="10" x2="24" y2="10" stroke="#3a3a42" stroke-width="0.8"/>
+  <line x1="6" y1="14" x2="24" y2="14" stroke="#3a3a42" stroke-width="1"/>
+  <line x1="6" y1="18" x2="24" y2="18" stroke="#3a3a42" stroke-width="1.2"/>
+  <line x1="6" y1="22" x2="24" y2="22" stroke="#3a3a42" stroke-width="1.4"/>
+  <!-- Capo bar -->
+  <rect x="5" y="7" width="20" height="4" rx="2" fill="#5affd8" opacity="0.3"/>
+  <rect x="5" y="8" width="20" height="2" rx="1" fill="#5affd8" opacity="0.7"/>
+  <!-- Finger dots -->
+  <circle cx="11" cy="14" r="2.5" fill="#e8ff5a"/>
+  <circle cx="17" cy="18" r="2.5" fill="#e8ff5a"/>
+  <circle cx="11" cy="22" r="2.5" fill="#e8ff5a"/>
+</svg>

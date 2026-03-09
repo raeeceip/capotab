@@ -1,0 +1,32 @@
+.chip {
+  background: var(--surface2);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 0.35rem 0.7rem;
+  font-family: 'DM Mono', monospace;
+  font-size: 0.7rem;
+  color: var(--muted);
+  cursor: pointer;
+  transition: border-color 0.2s, color 0.2s;
+}
+
+.chip:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.chip.active {
+  border-color: var(--accent);
+  color: var(--accent);
+  background: rgba(232, 255, 90, 0.08);
+}
+
+@media (max-width: 480px) {
+  .chip {
+    padding: 0.4rem 0.6rem;
+    font-size: 0.65rem;
+    min-height: 36px;
+    display: inline-flex;
+    align-items: center;
+  }
+}

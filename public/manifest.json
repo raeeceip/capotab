@@ -1,0 +1,21 @@
+{
+  "name": "CapoTab",
+  "short_name": "CapoTab",
+  "description": "Guitar chord shapes, transposed. Visualize capo positions, search songs, detect keys.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0d0d0f",
+  "theme_color": "#0d0d0f",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ]
+}

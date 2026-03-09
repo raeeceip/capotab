@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0d0d0f"/>
+      <stop offset="100%" stop-color="#141416"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- Decorative fretboard pattern -->
+  <g opacity="0.12">
+    <line x1="850" y1="80" x2="850" y2="550" stroke="#e8ff5a" stroke-width="2"/>
+    <line x1="900" y1="80" x2="900" y2="550" stroke="#e8ff5a" stroke-width="2"/>
+    <line x1="950" y1="80" x2="950" y2="550" stroke="#e8ff5a" stroke-width="2"/>
+    <line x1="1000" y1="80" x2="1000" y2="550" stroke="#e8ff5a" stroke-width="2"/>
+    <line x1="1050" y1="80" x2="1050" y2="550" stroke="#e8ff5a" stroke-width="2"/>
+    <line x1="830" y1="150" x2="1070" y2="150" stroke="#5affd8" stroke-width="1.5"/>
+    <line x1="830" y1="230" x2="1070" y2="230" stroke="#5affd8" stroke-width="1.5"/>
+    <line x1="830" y1="310" x2="1070" y2="310" stroke="#5affd8" stroke-width="1.5"/>
+    <line x1="830" y1="390" x2="1070" y2="390" stroke="#5affd8" stroke-width="1.5"/>
+    <line x1="830" y1="470" x2="1070" y2="470" stroke="#5affd8" stroke-width="1.5"/>
+  </g>
+
+  <!-- Decorative dots -->
+  <circle cx="925" cy="190" r="12" fill="#e8ff5a" opacity="0.2"/>
+  <circle cx="975" cy="270" r="12" fill="#e8ff5a" opacity="0.2"/>
+  <circle cx="875" cy="350" r="12" fill="#e8ff5a" opacity="0.2"/>
+  <circle cx="1025" cy="430" r="12" fill="#5affd8" opacity="0.15"/>
+
+  <!-- Capo bar decoration -->
+  <rect x="825" y="115" width="250" height="16" rx="8" fill="#5affd8" opacity="0.1"/>
+  <rect x="825" y="120" width="250" height="6" rx="3" fill="#5affd8" opacity="0.2"/>
+
+  <!-- Logo -->
+  <text x="80" y="240" font-family="system-ui, -apple-system, sans-serif" font-weight="800" font-size="96" fill="#e8ff5a">CapoTab</text>
+
+  <!-- Tagline -->
+  <text x="84" y="300" font-family="ui-monospace, monospace" font-size="28" fill="#6b6b7a" letter-spacing="0.15em">guitar chord shapes, transposed</text>
+
+  <!-- Feature badges -->
+  <rect x="80" y="360" width="200" height="40" rx="8" fill="#1c1c20" stroke="#2a2a30" stroke-width="1"/>
+  <text x="180" y="386" font-family="ui-monospace, monospace" font-size="16" fill="#5affd8" text-anchor="middle">CAGED shapes</text>
+
+  <rect x="300" y="360" width="200" height="40" rx="8" fill="#1c1c20" stroke="#2a2a30" stroke-width="1"/>
+  <text x="400" y="386" font-family="ui-monospace, monospace" font-size="16" fill="#5affd8" text-anchor="middle">Song search</text>
+
+  <rect x="520" y="360" width="200" height="40" rx="8" fill="#1c1c20" stroke="#2a2a30" stroke-width="1"/>
+  <text x="620" y="386" font-family="ui-monospace, monospace" font-size="16" fill="#5affd8" text-anchor="middle">Key detection</text>
+
+  <!-- Chord examples -->
+  <text x="84" y="470" font-family="ui-monospace, monospace" font-size="22" fill="#e8ff5a" opacity="0.6">G  D  Em  C  -  capo 2  -  Key of A</text>
+
+  <!-- URL -->
+  <text x="84" y="560" font-family="ui-monospace, monospace" font-size="20" fill="#6b6b7a">capotab.pages.dev</text>
+</svg>
